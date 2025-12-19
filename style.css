@@ -19,10 +19,18 @@
 
 .btn {
   display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background: #e63946;
-  color: white;
+  margin-top: 20px;
+  padding: 12px 24px;
+
+  background-color: #ffb703;   /* Bright yellow-orange */
+  color: #000000;              /* Black text */
+
+  font-size: 15px;
+  font-weight: bold;
   text-decoration: none;
-  border-radius: 5px;
+
+  border-radius: 6px;
+  border: none;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
