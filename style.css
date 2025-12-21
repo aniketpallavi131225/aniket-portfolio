@@ -133,3 +133,19 @@ html {
   font-weight: bold;
   text-decoration: none;
 }
+@media (max-width: 600px) {
+
+  .header-content {
+    flex-direction: column;   /* side-by-side → up-down */
+    text-align: center;
+  }
+
+  .contact-line {
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+}
