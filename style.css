@@ -18,7 +18,7 @@
 /* Photo small & professional */
 .profile-pic {
   width: 100px;          /* 👈 photo chhoti */
-  height: 100px;
+  height: 105px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #ffb703;
