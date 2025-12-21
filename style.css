@@ -89,3 +89,13 @@ html {
     transform: translateY(0);
   }
 }
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  margin: 0 10px;
+  color: #ffb703;
+  font-weight: bold;
+  text-decoration: none;
+}
