@@ -66,3 +66,12 @@
 html {
   scroll-behavior: smooth;
 }
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .section,
+.dark .profile-card {
+  background: #1e1e1e;
+}
