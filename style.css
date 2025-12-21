@@ -1,13 +1,42 @@
+/* Header main */
+.header {
+  background: #1d3557;
+  color: white;
+  padding: 30px 20px;
+}
+
+/* Side-by-side container */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Photo small & professional */
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 100px;          /* 👈 photo chhoti */
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
+  border: 3px solid #ffb703;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
 
-  border: 4px solid #ffb703;
-  margin-bottom: 15px;
+/* Right side info */
+.header-info h1 {
+  margin: 0;
+  font-size: 26px;
+}
 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+.contact-line {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin: 8px 0;
 }
 form {
   display: flex;
@@ -21,23 +50,6 @@ input, textarea {
   border: 1px solid #ccc;
 }
 .header {
-  background: #1d3557;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.header h1 {
-  margin-bottom: 10px;
-}
-
-.contact-line {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  font-size: 14px;
-}
 
 
 .btn:hover {
