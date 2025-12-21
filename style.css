@@ -75,3 +75,17 @@ html {
 .dark .profile-card {
   background: #1e1e1e;
 }
+.section {
+  animation: fadeUp 0.8s ease-in;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
