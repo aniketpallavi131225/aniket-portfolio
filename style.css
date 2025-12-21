@@ -16,11 +16,14 @@
 }
 
 /* Photo small & professional */
-.profile-pic {
-  width: 100px;          /* 👈 photo chhoti */
-  height: 120px;
+..profile-pic {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
+
+  object-position: center top; /* 👈 HAIR FIX */
+
   border: 3px solid #ffb703;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
